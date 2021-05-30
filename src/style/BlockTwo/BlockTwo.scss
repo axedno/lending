@@ -1,0 +1,35 @@
+.blockTwo{
+  padding-bottom: 200px;
+  background-image: url(../../images/bg_for_3block.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+  &__back{
+    background-image: url(../../images/mapBig.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+  }
+  &__title{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+  }
+  &__titleBlock{
+    color: var(--color);
+  }
+  &__text{
+    margin: 500px auto 0 auto;
+    width: 40%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+  }
+}
+@media all and (max-width: 900px){
+  .blockTwo {
+    padding-bottom: 0;
+    &__text{
+      width: 90%;
+      margin: 150px auto 0 auto;
+    }
+  }
+}

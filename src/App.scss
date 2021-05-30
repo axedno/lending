@@ -1,0 +1,31 @@
+
+@font-face {
+  font-family: Proxima Nova - Semibold;
+  src: url("fonts/FontsFree-Net-Proxima-Nova-Sbold.otf") format("opentype");
+}
+@font-face {
+  font-family: ProximaNova-Bold;
+  src: url("fonts/ProximaNova-Bold.ttf") format("opentype");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ProximaNova-Bold;
+}
+:root{
+  --color:#8660ad;;
+}
+
+@import "style/Header";
+@import "style/Map";
+@import "style/Benefits";
+@import "style/MainBlock";
+@import "style/BlockOne/BlockOne";
+@import "style/BlockTwo/BlockTwo";
+@import "style/BlockThree/BlockThree";
+@import "style/HowUse";
+@import "style/Management";
+@import "style/Footer";
+@import "style/BurgerNav/BurgerNav";

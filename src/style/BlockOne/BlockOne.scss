@@ -1,0 +1,108 @@
+.blockOne{
+  padding-top: 68px;
+  background-image: url(../../images/bg_for_3block.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+  padding-bottom: 50px;
+  &__title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  &__titleBlock{
+    color: #8660ad;
+  }
+  &__textRibbonDescr{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  &__whiteBlock{
+    height: 60px;
+    box-shadow: -14px 10px 24px rgba(49, 54, 57, 0.21);
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__ribbon{
+    height: 24px;
+    width: 24px;
+    margin-left: 15px;
+  }
+  &__reason{
+    margin-left: 15px;
+  }
+  &__defaultBlock{
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #cfcfcf;
+    background-color: #efefef;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__colorBlock{
+    background-color: var(--color);
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #cfcfcf;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+   &__reasonWhite{
+     color: white;
+     margin-left: 15px;
+   }
+   &__textBlock{
+     background-image: url(../../images/cubeBlock.png);
+     background-repeat:no-repeat;
+     background-size: 100%;
+     width: 100%;
+   }
+   &__ribbonDescr{
+     margin: 49px 0 0 235px;
+     width: 800px;
+   }
+   &__text{
+     margin: 200px 0 0 160px;
+     width: 50%;
+   }
+}
+@media all and (max-width: 1250px){
+  .blockOne{
+    &__ribbonDescr{
+      margin: 49px 0 0 125px;
+
+    }
+  }
+}
+@media all and (max-width: 900px){
+  .blockOne{
+    &__textRibbonDescr{
+      flex-direction: column;
+    }
+    &__ribbonDescr{
+      width: 80%;
+      margin: 0 auto;
+    }
+    &__textBlock{
+      min-height: 500px;
+      display: flex;
+      align-items: center;
+    }
+    &__text{
+      margin: 0 auto;
+    }
+    }
+
+
+}

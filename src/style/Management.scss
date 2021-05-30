@@ -1,0 +1,87 @@
+.management{
+  background-image: url(../images/bg_for_3block.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 82px;
+  padding-bottom: 30px;
+  justify-content: space-around;
+  &__title{
+    color: var(--color);
+    font-size: 36px;
+    font-weight: 700;
+  }
+  &__blockOne{
+    margin-left: 200px;
+    width: 50%;
+    min-height: 700px;
+  }
+  &__blockTwo{
+    width: 50%;
+    min-height: 700px;
+  }
+  &__subTitle{
+    margin-top: 45px;
+    color: #7b7b7b;
+    font-size: 18px;
+    font-weight: 400;
+    width: 90%;
+    margin-bottom: 38px;
+  }
+  &__offers{
+    color: #111111;
+    font-weight: 700
+  }
+  &__cards{
+    width: 100%;
+    margin-top: 50px;
+    height: 20%;
+  }
+  &__imgText{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 30px;
+  }
+  &__img{
+    width: 26px;
+    height: 28px;
+  }
+  &__text{
+    margin-left: 15px;
+  }
+  &__cub{
+    width: 100%;
+    height: 60%;
+  }
+}
+@media all and (max-width: 1450px){
+  .management {
+    &__blockOne{
+      margin-left: 100px;
+    }
+    &__cub {
+        height: 70%;
+    }
+
+  }
+}
+@media all and (max-width: 900px){
+  .management {
+    flex-direction: column;
+    padding: 0;
+    &__blockOne{
+      margin: 20px auto;
+      width: 80%;
+    }
+    &__blockTwo{
+      width: 100%;
+      margin: 0 auto;
+      background-image: url(../images/bg_for_3block.png);
+      background-repeat:no-repeat;
+      background-size: 100%;
+    }
+
+  }
+}

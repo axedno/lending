@@ -1,0 +1,48 @@
+.howUse{
+  &__title{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 49px;
+  }
+  &__titleBlock{
+    color: var(--color);
+  }
+  &__subTitle{
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 37px;
+  }
+  &__blocks{
+    display: flex;
+    justify-content: space-between;
+    margin: 75px auto 0 auto;
+    width: 90%;
+  }
+  &__imgTitleText{
+    width: 28%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__img{
+    height: 66px;
+    width: 66px;
+  }
+  &__smallTitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 29px;
+  }
+  &__text{
+    margin-top: 27px;
+  }
+  &__finalText{
+    font-size: 18px;
+    font-weight: 400;
+    width: 90%;
+    margin: 94px auto;
+    color: #7b7b7b
+  }
+}
